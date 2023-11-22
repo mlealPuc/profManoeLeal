@@ -14,3 +14,10 @@ def valida_senha(senha):
         return False
     else
         return True
+    
+# funcao validar senha somente numeros
+def valida_senha(senha):
+    if senha.isnumeric():
+        return False
+    else
+        return True
